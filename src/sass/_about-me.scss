@@ -1,0 +1,57 @@
+.about-me {
+  min-height: 60vh;
+  display: flex;
+  @media only screen and(max-width: $bp-medium) {
+    flex-direction: column;
+  }
+
+  &__picture {
+    margin-top: 3.5rem;
+    @media only screen and(max-width: $bp-medium) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  &__points {
+    top: 10%;
+    position: -webkit-sticky;
+    position: sticky;
+  }
+
+  &__story {
+    padding: 2rem 0 2rem 5rem;
+    & > :not(:last-child) {
+      margin-bottom: 5rem;
+    }
+
+    @media only screen and(max-width: $bp-medium) {
+      padding: 2rem 0;
+    }
+  }
+
+  &__text {
+    color: $color-primary;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    letter-spacing: 0.1rem;
+    text-align: justify;
+
+    & > :not(:last-child) {
+      margin-bottom: 2rem;
+    }
+
+    @media only screen and(max-width: $bp-largest) {
+      font-size: 1.8rem;
+    }
+
+    @media only screen and(max-width: $bp-small) {
+      font-size: 2rem;
+    }
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

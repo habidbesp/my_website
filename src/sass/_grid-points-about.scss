@@ -1,0 +1,32 @@
+.grid-points-about {
+  position: relative;
+  display: flex;
+
+  &__picture {
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+  }
+
+  &__message {
+    position: absolute;
+    padding: 2rem 2rem 0;
+    width: 50%;
+    height: 50%;
+    right: 1%;
+    top: 1%;
+    clip-path: polygon(
+      0 0,
+      100% 0,
+      100% 75%,
+      50% 75%,
+      25% 100%,
+      25% 75%,
+      0% 75%
+    );
+    background-color: rgba($color-primary, 0.6);
+
+    @media only screen and(max-width: $bp-large) {
+    }
+  }
+}

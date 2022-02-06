@@ -1,0 +1,97 @@
+// COLOR VARIABLES
+$color-primary: #96d4c6;
+// $color-primary: #93f6ca;
+
+$color-secondary-dark: #ff7730;
+
+$color-tertiary-dark: #17303a;
+
+$color-grey-light-1: #f9f7f6;
+$color-grey-light-2: #aaa;
+
+$color-grey-dark-1: #54483a;
+$color-grey-dark-2: #6d5d4b;
+
+$color-black: #000;
+$color-white: #fff;
+
+// FONT VARIABLES
+$font-primary: "Inter", sans-serif;
+$font-icon: "The Nautigal", cursive;
+
+// RESPONSIVE BREAKPOINTS
+$bp-bigest: 112.5em; // 1800px
+$bp-largest: 74.375em; // 1190px
+$bp-large: 62.5em; // 1000px
+$bp-large-medium: 56.25em; // 900px
+$bp-medium: 50em; // 800px
+$bp-medium-small: 43.75em; // 700px
+$bp-small: 37.5em; // 600px
+$bp-xs-small: 25em; // 400px
+
+*,
+*:before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  overscroll-behavior-y: none;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+  @media only screen and(min-width: $bp-bigest) {
+    font-size: 75%;
+  }
+
+  @media only screen and(max-width: $bp-largest) {
+    font-size: 50%;
+  }
+
+  @media only screen and(max-width: $bp-small) {
+    font-size: 37.5%;
+  }
+
+  @media only screen and(max-width: $bp-xs-small) {
+    font-size: 31.25%;
+  }
+
+  font-family: $font-primary;
+
+  // background: #121314;
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+}
+
+.wrapper {
+  padding: 2rem 4rem;
+  @media only screen and(max-width: $bp-xs-small) {
+    padding: 2rem 2rem;
+  }
+}
+
+::selection {
+  background-color: $color-primary;
+  color: $color-tertiary-dark;
+}
+
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 250ms ease-in;
+}

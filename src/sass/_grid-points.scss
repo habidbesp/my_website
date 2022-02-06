@@ -1,0 +1,81 @@
+.grid-points {
+  display: flex;
+}
+
+.container-grid-points {
+  background: #c31432; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #240b36,
+    #c31432
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #240b36,
+    #c31432
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.grid-points-contact {
+  position: relative;
+  display: flex;
+
+  &__picture {
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+
+    @media only screen and(max-width: $bp-large-medium) {
+      bottom: 2rem;
+      right: 2rem;
+      transform: none;
+    }
+
+    @media only screen and(max-width: $bp-medium) {
+      bottom: 0rem;
+      right: 0rem;
+    }
+  }
+
+  &__message {
+    padding: 2rem 2rem 0;
+    width: 50%;
+    height: 50%;
+    left: -6rem;
+    top: -6rem;
+    position: absolute;
+
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      100% 75%,
+      75% 75%,
+      75% 100%,
+      50% 75%,
+      0% 75%
+    );
+    background-color: rgba($color-primary, 0.6);
+
+    @media only screen and(max-width: $bp-large-medium) {
+      left: -1rem;
+      top: -1rem;
+    }
+
+    @media only screen and(max-width: $bp-medium) {
+      left: 1.4rem;
+      top: 1.4rem;
+    }
+
+    &--box {
+      border-radius: 0.6rem;
+      padding: 1rem 1.4rem;
+      background-color: rgba(23, 48, 58, 0.85);
+      line-height: 1.5;
+      letter-spacing: 0.08rem;
+      color: $color-primary;
+      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+        rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+  }
+}
