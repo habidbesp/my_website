@@ -1,0 +1,38 @@
+.not-found {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__heading {
+    text-align: center;
+    font-weight: 500;
+    font-size: 4rem;
+    &--1 {
+      color: $color-secondary-dark;
+      letter-spacing: 0.2rem;
+    }
+
+    &--link {
+      color: $color-grey-light-2;
+      text-decoration: none;
+      &:hover {
+        color: $color-primary;
+      }
+    }
+  }
+
+  &__figure {
+    width: 80%;
+    margin: auto;
+  }
+
+  &__img {
+    width: 100%;
+  }
+}
