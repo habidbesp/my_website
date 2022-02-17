@@ -26,7 +26,7 @@
     right: 50%;
     transform: translate(50%, 50%);
 
-    @media only screen and(max-width: $bp-large-medium) {
+    @media only screen and(max-width: $bp-large) {
       bottom: 2rem;
       right: 2rem;
       transform: none;
@@ -40,9 +40,9 @@
 
   &__message {
     padding: 2rem 2rem 0;
-    width: 50%;
-    height: 50%;
-    left: -6rem;
+    width: 75%;
+    height: 47%;
+    left: -15rem;
     top: -6rem;
     position: absolute;
 
@@ -57,14 +57,14 @@
     );
     background-color: rgba($color-primary, 0.6);
 
-    @media only screen and(max-width: $bp-large-medium) {
+    @media only screen and(max-width: $bp-large) {
       left: -1rem;
       top: -1rem;
     }
 
     @media only screen and(max-width: $bp-medium) {
-      left: 1.4rem;
-      top: 1.4rem;
+      left: 0.4rem;
+      top: 0.4rem;
     }
 
     &--box {

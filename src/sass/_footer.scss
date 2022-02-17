@@ -2,7 +2,11 @@
   min-height: 10vh;
   font-size: 1.6rem;
   letter-spacing: 0.2rem;
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  @media only screen and(max-width: $bp-small) {
+    font-size: 2rem;
+  }
 }

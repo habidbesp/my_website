@@ -25,15 +25,19 @@ export default function AboutMe() {
                     <div className="about-me__text">
                         <h1>My Story</h1>
                         <p>
-                         I am originally from Mexico and trained as a ballet dancer there. My professional dance career took me to Germany 12 years ago where I have worked at several theaters across the country. My life and career as a dancer has taught me valuable cooperation and team skills in addition to promoting attributes such as discipline and perseverance. I also learned early on to deal with fundamental questions about my further professional development, since dance, as fulfilling as it is, is not a profession that can be practiced for a lifetime. A little over a year ago, when I was asked whether I could only dance or develop myself in other professional fields, I finally wanted to start with something new that would grab my attention and enthusiasm in equal measure. As a result and parallel to my dance career, I developed a great interest in programming web applications. In October 2020 I completed a 9-week web development bootcamp at Ironhack Berlin, which I really liked and which motivated me to develop further in this area.
+                         I am originally from Mexico and trained as a professional ballet dancer. My professional dance career took me to Germany 12 years ago where I have worked at several theaters across the country. My life and career as a dancer has taught me valuable skills such as having a genuine collaborative spirit in addition to attributes such as discipline, perseverance and good work ethics. 
+                         </p>
+
+                         <p>
+                         Some time ago, I decided to start with something new, something that I could equally be passionate and enthusiastic about. Parallel to my dance career, I therefore evolved on my interest in programming web applications. In October 2020 I completed a 9-week web development bootcamp at Ironhack Berlin, which I enjoyed, and which encouraged me to develop myself further in this area.
                         </p>
 
                         <p>
-                        At Ironhack Berlin I was able to gain initial knowledge in the field of web development. At first I found it all quite complex and challenging; But that's exactly what attracted me to delve deeper and expand my knowledge. At the end of this bootcamp, I therefore decided to take another step in the direction of web development and started a one-year full-time apprenticeship at the DCI Digital Career Institute gGmbH in Berlin, which I now completed on December 4th 2021.
+                        At Ironhack Berlin I was able to gain initial knowledge in the field of web development. I learned fast that all was quite complex and challenging, but that's exactly what attracted me to go even deeper and expand my knowledge and skills. At the end of the bootcamp, I decided to take another step in the direction of web development and started a one-year full-time apprenticeship at the DCI Digital Career Institute gGmbH in Berlin, which I just now completed on December 4th 2021.
                         </p>
 
                         <p>
-                        I am polishing my React skills right now with some projects, this website being one of them!
+                        I am polishing my React skills right now with some projects, this website you are looking at being one of them!
                         </p>
                     </div>
                     <Skills />

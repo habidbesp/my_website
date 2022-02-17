@@ -71,8 +71,8 @@ export default function ProjectSingle() {
                                 icon={item.image}
                                 alt={item.alt}
                                 name={item.name}
-                                width="100%"
-                                fontSize="1.2rem"
+                                // width="100%"
+                                // fontSize="1.2rem"
                             />
                         </div>  
                     )

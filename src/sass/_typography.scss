@@ -37,6 +37,9 @@
   &--dark {
     color: $color-grey-dark-1;
   }
+  @media only screen and(max-width: $bp-small) {
+    font-size: 2rem;
+  }
 }
 
 .heading-4 {
@@ -55,7 +58,7 @@
   position: absolute;
   top: -6rem;
   left: 0rem;
-  opacity: 0.05;
+  opacity: 0.15;
   font-size: 4rem;
-  white-space: nowrap;
+  // white-space: nowrap;
 }

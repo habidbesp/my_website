@@ -9,9 +9,9 @@
     align-items: center;
     &--subheading {
       position: absolute;
-      bottom: -1.5rem;
+      // bottom: -1.5rem;
       left: 10%;
-      white-space: nowrap;
+      // white-space: nowrap;
       font-size: 1.6rem;
       font-weight: 500;
     }
@@ -126,7 +126,7 @@
     }
 
     @media only screen and(max-width: $bp-small) {
-      font-size: 2rem;
+      font-size: 2.5rem;
     }
   }
 
@@ -140,6 +140,9 @@
       width: 20%;
       @media only screen and(max-width: $bp-large) {
         width: 33.333%;
+      }
+      @media only screen and(max-width: $bp-small) {
+        width: 50%;
       }
     }
   }

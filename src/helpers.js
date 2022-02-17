@@ -156,8 +156,10 @@ export const projectsData = [
             {
                 order: 1,
                 image: erwerk1,
-                description: `The idea behind this project is to create a page for a furniture store, where the visitor is automatically attracted by the elegance of the product for sale. 
-                                In this group project, I had the opportunity to experience teamwork planning, as well as practice GIT and GitHub working from different branches and creating pull requests.`,
+                // description: `The idea behind this project is to create a page for a furniture store, where the visitor is automatically attracted by the elegance of the product for sale. 
+                // In this group project, I had the opportunity to experience teamwork planning, as well as practice GIT and GitHub working from different branches and creating pull requests.`,
+                description: `The story behind this project was brought to live by a furniture store, that intended to have a page where visitors would immediately get attracted by the elegance and class of the product being advertised. It was a group project, and I had the opportunity to experience teamwork planning, as well as practice GIT and GitHub working from different branches and creating pull requests.
+                `,
             },
             {
                 order: 2,
@@ -167,7 +169,7 @@ export const projectsData = [
             {
                 order: 3,
                 image: erwerk3,
-                description: `By selecting a category, the visitor will find the items for sale and will eventually be able to add to their shopping cart.`
+                description: `By selecting a category, visitors will find the items for sale and will eventually be able to add to them shopping cart.`
             }
 
         ]
@@ -196,21 +198,19 @@ export const projectsData = [
             {
                 order: 1,
                 image: phaser,
-                description: `Phaser3 is a fast, free and fun open source framework for canvas and WebGL powered browser games. In a really unic experience, this framework surprise by all its possibilities at building a game.`
+                description: `Phaser3 is a fast, free and fun open-source framework for canvas and WebGL powered browser game. It offers a unique user experience, and this framework surprises by a comprehensive and insightful set of possibilities at building a game.`
             },
             {
                 order: 2,
                 image: phaser2,
-                // image: phaser,
-                description: `In a simple but a really fun way, PHASER 3 explains how to develop your game using different features like animations and physics from different libraries like matter.js and arcade.js.
+                description: `In a simple but provenly fun way, PHASER 3 explains how to develop your game by using different features like animations and physics from different libraries like matter.js and arcade.js.
 
-                The target in this game is to collect as many coins as possible using the coursors "right" and "left" to move in the "X" axis, and the coursor "up" to jump over the platforms ("Y" axis).`
+                The objective in this game is to collect as many coins as possible using the cursor "right" and "left" to move in the "X" axis, and the cursor "up" to jump over the platforms ("Y" axis).`
             },
             {
                 order: 3,
                 image: phaser3,
-                // image: phaser,
-                description: `Every time the player collects a coin, the score will increase 10 points. If the player touchs a bomb, the game will finish showing a message "Game Over".`
+                description: `Each time the player collects a coin, the score will increase 10 points. If the player touches a bomb, the game finishes by displaying the message "Game Over".`
             },
         ]
     },
@@ -262,7 +262,8 @@ export const projectsData = [
             {
                 order: 1,
                 image: quiz1,
-                description: "Using an API ( QuizApi ) and getting inspired by the QuizApi Homepage, this Quiz is about basic Javascript questions. Using React.js, learning how to implement the logic to create a quiz, and implementing LottieFiles animations with the LottieWeb package, developing this project was a great experience for my knowledge.",
+                description: `Using an API ( QuizApi ) and getting inspired by the QuizApi Homepage: this Quiz is about basic Javascript questions. Using React.js, learning how to implement the logic to create a quiz, and implementing LottieFiles animations with the LottieWeb package.  Developing this project was highly insightful and offers multiple learnings for future projects.
+                `,
             },
             {
                 order: 2,
@@ -277,7 +278,7 @@ export const projectsData = [
             {
                 order: 4,
                 image: quiz4,
-                description: "Once you submit your answers, you will find your average, as well as the correct or false questions that you have answered.",
+                description: "Once you submit your answers, you will find your average, as well as the number of correct or false answers that you provided.",
             },
         ]
     },
@@ -335,32 +336,32 @@ export const projectsData = [
             {
                 order: 1, 
                 image: staBer1,
-                description: "The idea behind this project is to have a platform for independent artists in Berlin. Many times artists struggle to find projects to participate in or find people for their own projects. That is the problem we want to solve with this platform, to help them connect with each other to develop their own projects and find jobs.",
+                description: `The concept behind this project is to offer a platform for independent artists in the area of Berlin. Artists in various spaces often struggle at finding projects to participate in or to easily connect with the right people to source their own projects. This platform helps exactly on these challenges and intends to help artists and project owners in further developing their skills and career by expanding their access to a related network of people.`,
             },
             {
                 order: 2, 
                 image: staBer2,
-                description: "With a basic authentication (email and password), the user can open a profile, eather as job seeker or employer.",
+                description: `With a basic authentication (email and password), the user can open a profile, either as someone searching for a job or as an employer.`,
             },
             {
                 order: 3, 
                 image: staBer3,
-                description: "Once users have a profile, they can update their details including a profile picture. They can also browse through other users different projects and apply or save them as favorites to their own profile. All this is accessible from the user's own dashboard.",
+                description: `Once users have a profile, they can update their details including a profile picture. They can also browse through other users’ profiles, various ongoing projects and then even apply or save them as favorites to their own profile. All is accessible from the user's own dashboard.`,
             },
             {
                 order: 4, 
                 image: staBer4,
-                description: "The employer (artist director) can upload their own projects to the platform adding all the details and images...",
+                description: `The employer (artist director) can upload their own projects to the platform adding all desired details and images...`,
             },
             {
                 order: 5, 
                 image: staBer5,
-                description: "...and can add job offers for other artists, depending on the needs of the artistic project.",
+                description: "...and can add job offers for other artists, depending on the staffing needs of the artist's own project.",
             },
             {
                 order: 6, 
                 image: staBer6,
-                description: "Artists can apply and send a message to the project owner; in response, this can either accept or reject the request.",
+                description: "Artists can apply and send a message to a project owner; in response, the project owner can either accept or reject the request.",
             },
         ]
     }

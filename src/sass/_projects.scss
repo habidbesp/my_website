@@ -23,8 +23,12 @@
   &__description {
     width: 100%;
     padding: 2rem 5rem;
-    @media only screen and(max-width: $bp-small) {
+    @media only screen and(max-width: $bp-large-medium) {
       padding: 2rem 0;
+      min-height: 30vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 
@@ -70,6 +74,12 @@
       transition: all 0.27s;
       & h3 {
         font-size: 2rem;
+        @media only screen and(max-width: $bp-largest) {
+          font-size: 2.5rem;
+        }
+        @media only screen and(max-width: $bp-small) {
+          font-size: 2.7rem;
+        }
       }
     }
 
@@ -95,6 +105,12 @@
   &__sentence {
     font-size: 1.2rem;
     color: $color-grey-light-1;
+    @media only screen and(max-width: $bp-largest) {
+      font-size: 1.5rem;
+    }
+    @media only screen and(max-width: $bp-largest) {
+      font-size: 1.6rem;
+    }
   }
 }
 

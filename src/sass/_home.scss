@@ -48,7 +48,7 @@
     &--headings {
       @media only screen and(max-width: $bp-small) {
         background: rgba(30, 66, 80, 0.85);
-        height: 25%;
+        height: 30%;
         padding-right: 1rem;
         position: absolute;
         bottom: 0;
@@ -128,6 +128,7 @@
     }
 
     @media only screen and(max-width: $bp-small) {
+      width: unset;
       height: 80%;
       display: flex;
       flex-direction: column;

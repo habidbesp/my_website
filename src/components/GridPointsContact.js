@@ -34,7 +34,7 @@ export default function GridPointsContact({color, rows=20, columns=20}) {
         }
         <div className="grid-points-contact__message">
           <div className="grid-points-contact__message--box">
-            <h1>Drop me a line. <br/> I would like to hear from you.</h1>
+            <h1>Drop me a note, if this page is of interest to you. <br/>Looking forward to chat!</h1>
           </div>
         </div>
         <div className="grid-points-contact__picture">
