@@ -5,6 +5,7 @@ import ButtonFa from './ButtonFa'
 import CardIcon from './CardIcon'
 import ScrollToTop from './ScrollToTop'
 import BluredScreen from './BluredScreen'
+import NotFound from './NotFound'
 
 
 
@@ -17,12 +18,23 @@ export default function ProjectSingle() {
     
     const targetObj = projectsData.find(item => item.id === projectId);
 
+    if(!targetObj){
+        return <NotFound 
+            title={'No Project Found!!!'}
+            link={'/projects'}     
+            backTo={'Projects'}
+            emojin={'👩🏻‍💻'}
+        />
+    }
+
     const { title, sentence, demoLink, githubLink, technologies, features } = targetObj
 
     const displayPopup = (e) => {
         setPopupImg(e.target.id)
         setPopup(true) 
     }
+
+    
 
     return (
         <>
@@ -71,8 +83,8 @@ export default function ProjectSingle() {
                                 icon={item.image}
                                 alt={item.alt}
                                 name={item.name}
-                                // width="100%"
-                                // fontSize="1.2rem"
+                                width="100%"
+                                fontSize="1.2rem"
                             />
                         </div>  
                     )

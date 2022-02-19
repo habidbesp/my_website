@@ -23,7 +23,16 @@ function App() {
             </Route>
             <Route path="about-me" element={ <AboutMe /> } />
             <Route path="contact" element={ <Contact />} />
-            <Route path="*" element={ <NotFound /> } />
+            <Route path="*" element={
+              <main className="not-found__main">
+                <NotFound 
+                  title={'Upss, you are lost!!!'}
+                  link={'/'}
+                  backTo={'Home'}
+                  emojin={'🏡'}
+                />
+              </main>
+            } />
           </Route>
         </Routes>
         <Footer/>

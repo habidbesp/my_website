@@ -1,8 +1,6 @@
 .not-found {
-  min-height: 80vh;
   display: flex;
   justify-content: center;
-  align-items: center;
 
   &__container {
     display: flex;
@@ -34,5 +32,13 @@
 
   &__img {
     width: 100%;
+  }
+
+  // container just in main root
+  &__main {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
