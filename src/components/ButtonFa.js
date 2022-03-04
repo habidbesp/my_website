@@ -1,15 +1,9 @@
-import React from 'react'
+import React from "react";
 
-export default function ButtonFa({classFa}) {
+export default function ButtonFa({ classFa }) {
+  const style = {
+    borderRadius: "0.6rem",
+  };
 
-    const style = {
-        borderRadius: "0.6rem",
-    }
-
-    return (
-        <i 
-            className={`${classFa} button-fa`}
-            style={style}
-        />
-    )
+  return <i className={`${classFa} button-fa`} style={style} />;
 }
