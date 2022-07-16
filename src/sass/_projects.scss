@@ -90,9 +90,9 @@
         color: rgba($color-primary, 1);
       }
     }
-    & a:active {
-      transform: scale(1);
-    }
+    // & a:active {
+    //   transform: scale(1);
+    // }
   }
 
   &__item::before {

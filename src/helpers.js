@@ -15,6 +15,9 @@ import reactBootstrap from "./images/logos/react-bootstrap.svg";
 import lottie from "./images/quiz-pictures/lottie-files.svg";
 import quizAPI from "./images/quiz-pictures/quizApi-logo.svg";
 import phaserLogo from "./images/phaser-pictures/image2vector.svg";
+import felaLogo from "./images/logos/fela.svg";
+import graphqlLogo from "./images/logos/graphql-icon.svg";
+import apolloClientLogo from "./images/logos/apollo-client-logo.svg";
 
 import erwerk1 from "./images/erwerk-pictures/erwerk_1.png";
 import erwerk2 from "./images/erwerk-pictures/erwerk_2.png";
@@ -35,6 +38,15 @@ import staBer3 from "./images/sta-ber-pictures/sta-ber3.png";
 import staBer4 from "./images/sta-ber-pictures/sta-ber4.png";
 import staBer5 from "./images/sta-ber-pictures/sta-ber5.png";
 import staBer6 from "./images/sta-ber-pictures/sta-ber6.png";
+
+// tasks book
+import tasksBook1 from "./images/tasks-book-pictures/dashboard.png";
+import tasksBook2 from "./images/tasks-book-pictures/light_modus.png";
+import tasksBook3 from "./images/tasks-book-pictures/loggin.png";
+import tasksBook4 from "./images/tasks-book-pictures/create_task_modal.png";
+import tasksBook5 from "./images/tasks-book-pictures/profile.png";
+import tasksBook6 from "./images/tasks-book-pictures/update_profile_modal.png";
+import tasksBook7 from "./images/tasks-book-pictures/responsive.png";
 
 export const dataSkills = [
   {
@@ -65,6 +77,12 @@ export const dataSkills = [
     image: reactBootstrap,
     alt: "react-bootstrap-logo",
     name: "react-bootstrap",
+    learned: true,
+  },
+  {
+    image: felaLogo,
+    alt: "fela-logo",
+    name: "fela",
     learned: true,
   },
   {
@@ -101,6 +119,18 @@ export const dataSkills = [
     image: expressLogo,
     alt: "express-logo",
     name: "express",
+    learned: true,
+  },
+  {
+    image: graphqlLogo,
+    alt: "graphql",
+    name: "graphql",
+    learned: true,
+  },
+  {
+    image: apolloClientLogo,
+    alt: "apollo client",
+    name: "apollo client",
     learned: true,
   },
   {
@@ -364,6 +394,101 @@ export const projectsData = [
         image: staBer6,
         description:
           "Artists can apply and send a message to a project owner; in response, the project owner can either accept or reject the request.",
+      },
+    ],
+  },
+  {
+    id: "6152de5173549ad48f34a0c3",
+    title: "Tasks Book",
+    sentence: "Manage And Classify Your Daily Tasks By Categories",
+    demoLink: "https://tasks-book-nine.vercel.app/",
+    githubLink: "https://github.com/Task-book-app",
+    technologies: [
+      {
+        image: reactLogo,
+        alt: "react-logo",
+        name: "react",
+        learned: true,
+      },
+      {
+        image: felaLogo,
+        alt: "fela-logo",
+        name: "fela",
+        learned: true,
+      },
+      {
+        image: mongoIcon,
+        alt: "mongo-logo",
+        name: "mongodb",
+        learned: true,
+      },
+      {
+        image: mongoose,
+        alt: "mongoose-logo",
+        name: "mongoose",
+        learned: true,
+      },
+      {
+        image: graphqlLogo,
+        alt: "graphql",
+        name: "graphql",
+        learned: true,
+      },
+      {
+        image: apolloClientLogo,
+        alt: "apollo client",
+        name: "apollo client",
+        learned: true,
+      },
+      {
+        image: expressLogo,
+        alt: "express-logo",
+        name: "express",
+        learned: true,
+      },
+      {
+        image: cloudinaryLogo,
+        alt: "cloudinary-logo",
+        name: "cloudinary",
+        learned: true,
+      },
+    ],
+    features: [
+      {
+        order: 1,
+        image: tasksBook1,
+        description: `The idea behind this project was to create a to-do list, and take it to something more than just a list, presenting it as an interface where users could have a sense of order and feel motivated to list their daily tasks.`,
+      },
+      {
+        order: 2,
+        image: tasksBook2,
+        description: `The interface has a dark and light mode, this helps users with eyestrain problems. Light mode is shown.`,
+      },
+      {
+        order: 3,
+        image: tasksBook3,
+        description: `With only email and password, users will be able to have a profile where they can start writing their tasks.`,
+      },
+      {
+        order: 4,
+        image: tasksBook4,
+        description: `Once a user profile is obtained, users will be able to start writing their tasks and classify them by categories.`,
+      },
+      {
+        order: 5,
+        image: tasksBook5,
+        description: `The interface has a progress chart where users can compare the number of tasks per category that they have created.
+        There is also a section where users can look at their profile data.`,
+      },
+      {
+        order: 6,
+        image: tasksBook6,
+        description: `The data, as well as the user image, can be updated.`,
+      },
+      {
+        order: 7,
+        image: tasksBook7,
+        description: `The interface is completely responsive and perfectly visible from any device.`,
       },
     ],
   },
