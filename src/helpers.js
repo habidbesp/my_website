@@ -467,7 +467,7 @@ export const projectsData = [
       {
         order: 3,
         image: tasksBook3,
-        description: `With only email and password, users will be able to have a profile where they can start writing their tasks.`,
+        description: `The profile data, as well as the user image, can easily be managed and updated.`,
       },
       {
         order: 4,
