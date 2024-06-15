@@ -312,91 +312,91 @@ export const projectsData = [
       },
     ],
   },
-  {
-    id: "5f592fc65109405423129df4",
-    title: "Staging Berlin",
-    sentence: "Job-Searching Platform For Independent Theatre Artist",
-    demoLink: "https://staging-berlin.vercel.app/",
-    githubLink: "https://github.com/stagingBerlin",
-    technologies: [
-      {
-        image: sassLogo,
-        alt: "sass-logo",
-        name: "sass",
-        learned: true,
-      },
-      {
-        image: mui,
-        alt: "mui-logo",
-        name: "MaterialUI",
-        learned: false,
-      },
-      {
-        image: reactLogo,
-        alt: "react-logo",
-        name: "react",
-        learned: true,
-      },
-      {
-        image: mongoIcon,
-        alt: "mongo-logo",
-        name: "mongodb",
-        learned: true,
-      },
-      {
-        image: mongoose,
-        alt: "mongoose-logo",
-        name: "mongoose",
-        learned: true,
-      },
-      {
-        image: expressLogo,
-        alt: "express-logo",
-        name: "express",
-        learned: true,
-      },
-      {
-        image: cloudinaryLogo,
-        alt: "cloudinary-logo",
-        name: "cloudinary",
-        learned: true,
-      },
-    ],
-    features: [
-      {
-        order: 1,
-        image: staBer1,
-        description: `The concept behind this project is to offer a platform for independent artists in the area of Berlin. Artists in various spaces often struggle at finding projects to participate in or to easily connect with the right people to source their own projects. This platform helps exactly on these challenges and intends to help artists and project owners in further developing their skills and career by expanding their access to a related network of people.`,
-      },
-      {
-        order: 2,
-        image: staBer2,
-        description: `With a basic authentication (email and password), the user can open a profile, either as someone searching for a job or as an employer.`,
-      },
-      {
-        order: 3,
-        image: staBer3,
-        description: `Once users have a profile, they can update their details including a profile picture. They can also browse through other users’ profiles, various ongoing projects and then even apply or save them as favorites to their own profile. All is accessible from the user's own dashboard.`,
-      },
-      {
-        order: 4,
-        image: staBer4,
-        description: `The employer (artist director) can upload their own projects to the platform adding all desired details and images...`,
-      },
-      {
-        order: 5,
-        image: staBer5,
-        description:
-          "...and can add job offers for other artists, depending on the staffing needs of the artist's own project.",
-      },
-      {
-        order: 6,
-        image: staBer6,
-        description:
-          "Artists can apply and send a message to a project owner; in response, the project owner can either accept or reject the request.",
-      },
-    ],
-  },
+  // {
+  //   id: "5f592fc65109405423129df4",
+  //   title: "Staging Berlin",
+  //   sentence: "Job-Searching Platform For Independent Theatre Artist",
+  //   demoLink: "https://staging-berlin.vercel.app/",
+  //   githubLink: "https://github.com/stagingBerlin",
+  //   technologies: [
+  //     {
+  //       image: sassLogo,
+  //       alt: "sass-logo",
+  //       name: "sass",
+  //       learned: true,
+  //     },
+  //     {
+  //       image: mui,
+  //       alt: "mui-logo",
+  //       name: "MaterialUI",
+  //       learned: false,
+  //     },
+  //     {
+  //       image: reactLogo,
+  //       alt: "react-logo",
+  //       name: "react",
+  //       learned: true,
+  //     },
+  //     {
+  //       image: mongoIcon,
+  //       alt: "mongo-logo",
+  //       name: "mongodb",
+  //       learned: true,
+  //     },
+  //     {
+  //       image: mongoose,
+  //       alt: "mongoose-logo",
+  //       name: "mongoose",
+  //       learned: true,
+  //     },
+  //     {
+  //       image: expressLogo,
+  //       alt: "express-logo",
+  //       name: "express",
+  //       learned: true,
+  //     },
+  //     {
+  //       image: cloudinaryLogo,
+  //       alt: "cloudinary-logo",
+  //       name: "cloudinary",
+  //       learned: true,
+  //     },
+  //   ],
+  //   features: [
+  //     {
+  //       order: 1,
+  //       image: staBer1,
+  //       description: `The concept behind this project is to offer a platform for independent artists in the area of Berlin. Artists in various spaces often struggle at finding projects to participate in or to easily connect with the right people to source their own projects. This platform helps exactly on these challenges and intends to help artists and project owners in further developing their skills and career by expanding their access to a related network of people.`,
+  //     },
+  //     {
+  //       order: 2,
+  //       image: staBer2,
+  //       description: `With a basic authentication (email and password), the user can open a profile, either as someone searching for a job or as an employer.`,
+  //     },
+  //     {
+  //       order: 3,
+  //       image: staBer3,
+  //       description: `Once users have a profile, they can update their details including a profile picture. They can also browse through other users’ profiles, various ongoing projects and then even apply or save them as favorites to their own profile. All is accessible from the user's own dashboard.`,
+  //     },
+  //     {
+  //       order: 4,
+  //       image: staBer4,
+  //       description: `The employer (artist director) can upload their own projects to the platform adding all desired details and images...`,
+  //     },
+  //     {
+  //       order: 5,
+  //       image: staBer5,
+  //       description:
+  //         "...and can add job offers for other artists, depending on the staffing needs of the artist's own project.",
+  //     },
+  //     {
+  //       order: 6,
+  //       image: staBer6,
+  //       description:
+  //         "Artists can apply and send a message to a project owner; in response, the project owner can either accept or reject the request.",
+  //     },
+  //   ],
+  // },
   {
     id: "6152de5173549ad48f34a0c3",
     title: "Tasks Book",
