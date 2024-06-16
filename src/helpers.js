@@ -32,12 +32,12 @@ import quiz2 from "./images/quiz-pictures/quiz_2.png";
 import quiz3 from "./images/quiz-pictures/quiz_3.png";
 import quiz4 from "./images/quiz-pictures/quiz_4.png";
 
-import staBer1 from "./images/sta-ber-pictures/sta-ber1.png";
-import staBer2 from "./images/sta-ber-pictures/sta-ber2.png";
-import staBer3 from "./images/sta-ber-pictures/sta-ber3.png";
-import staBer4 from "./images/sta-ber-pictures/sta-ber4.png";
-import staBer5 from "./images/sta-ber-pictures/sta-ber5.png";
-import staBer6 from "./images/sta-ber-pictures/sta-ber6.png";
+// import staBer1 from "./images/sta-ber-pictures/sta-ber1.png";
+// import staBer2 from "./images/sta-ber-pictures/sta-ber2.png";
+// import staBer3 from "./images/sta-ber-pictures/sta-ber3.png";
+// import staBer4 from "./images/sta-ber-pictures/sta-ber4.png";
+// import staBer5 from "./images/sta-ber-pictures/sta-ber5.png";
+// import staBer6 from "./images/sta-ber-pictures/sta-ber6.png";
 
 // tasks book
 import tasksBook1 from "./images/tasks-book-pictures/dashboard.png";
