@@ -56,18 +56,23 @@
       0% 75%
     );
     background-color: rgba($color-primary, 0.6);
+    @media only screen and(max-width: $bp-largest) {
+      height: 68%;
+      top: -10rem;
+    }
 
     @media only screen and(max-width: $bp-large) {
-      left: -1rem;
-      top: -1rem;
+      left: -6rem;
+      top: -3rem;
     }
 
     @media only screen and(max-width: $bp-medium) {
-      left: 0.4rem;
-      top: 0.4rem;
+      left: -2.6rem;
+      top: -0.6rem;
     }
 
     &--box {
+      // font-size: 1.8rem;
       border-radius: 0.6rem;
       padding: 1rem 1.4rem;
       background-color: rgba(23, 48, 58, 0.85);
@@ -76,6 +81,11 @@
       color: $color-primary;
       box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
         rgba(0, 0, 0, 0.22) 0px 15px 12px;
+      @media only screen and (max-width: $bp-largest) {
+        font-size: 1.122222rem;
+        // 1rem = 8px
+        // 1190px
+      }
     }
   }
 }

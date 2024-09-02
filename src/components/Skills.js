@@ -22,7 +22,7 @@ export default function Skills() {
           )
         )}
       </div>
-      <h2>Currently Learning :</h2>
+      {/* <h2>Currently Learning :</h2>
       <div className="skills__logos-container">
         {dataSkills.map((item, i) =>
           !item.learned ? (
@@ -38,7 +38,7 @@ export default function Skills() {
             ""
           )
         )}
-      </div>
+      </div> */}
     </div>
   );
 }

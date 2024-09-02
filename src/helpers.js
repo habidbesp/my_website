@@ -10,7 +10,7 @@ import nodeIcon from "./images/logos/nodejs.svg";
 import expressLogo from "./images/logos/express.svg";
 import cloudinaryLogo from "./images/logos/cloudinary.svg";
 import mongoose from "./images/logos/mongoose_js.svg";
-import mui from "./images/logos/material-ui.svg";
+// import mui from "./images/logos/material-ui.svg";
 import reactBootstrap from "./images/logos/react-bootstrap.svg";
 import lottie from "./images/quiz-pictures/lottie-files.svg";
 import quizAPI from "./images/quiz-pictures/quizApi-logo.svg";
@@ -49,6 +49,12 @@ import tasksBook6 from "./images/tasks-book-pictures/update_profile_modal.png";
 import tasksBook7 from "./images/tasks-book-pictures/responsive.png";
 
 export const dataSkills = [
+  {
+    image: nodeIcon,
+    alt: "node-logo",
+    name: "nodejs",
+    learned: true,
+  },
   {
     image: html5Logo,
     alt: "html5-logo",
@@ -98,12 +104,6 @@ export const dataSkills = [
     learned: true,
   },
   {
-    image: nodeIcon,
-    alt: "node-logo",
-    name: "nodejs",
-    learned: false,
-  },
-  {
     image: mongoIcon,
     alt: "mongo-logo",
     name: "mongodb",
@@ -145,12 +145,12 @@ export const dataSkills = [
     name: "cloudinary",
     learned: true,
   },
-  {
-    image: mui,
-    alt: "mui-logo",
-    name: "MaterialUI",
-    learned: false,
-  },
+  // {
+  //   image: mui,
+  //   alt: "mui-logo",
+  //   name: "MaterialUI",
+  //   learned: false,
+  // },
 ];
 
 export const projectsData = [

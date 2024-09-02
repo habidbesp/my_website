@@ -44,17 +44,24 @@ body {
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  // 1rem = 10px
 
   @media only screen and (min-width: $bp-bigest) {
     font-size: 75%;
+    // 1rem = 12px
+    // 1800px
   }
 
   @media only screen and (max-width: $bp-largest) {
     font-size: 50%;
+    // 1rem = 8px
+    // 1190px
   }
 
   @media only screen and (max-width: $bp-small) {
     font-size: 37.5%;
+    // 1rem = 6px
+    // 600px
   }
 
   // @media only screen and(max-width: $bp-xs-small) {
@@ -78,12 +85,15 @@ html {
 .wrapper {
   padding: 2rem 4rem;
   min-height: 80vh;
+  @media only screen and (max-width: $bp-largest) {
+    padding: 0.5rem;
+  }
 
   // @media only screen and(max-width: $bp-small) {
   // }
-  @media only screen and (max-width: $bp-xs-small) {
-    padding: 2rem 2rem;
-  }
+  // @media only screen and (max-width: $bp-xs-small) {
+  //   padding: 1rem;
+  // }
 }
 
 ::selection {
